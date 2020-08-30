@@ -19,7 +19,8 @@ struct MovieListView: View {
                     Spacer()
                     Text(movie.givenRating.localizedName)
                 }
-            }.navigationBarTitle("Movies")
+            }
+            .navigationBarTitle("Movies")
             .navigationBarItems(trailing: navigationBarTrailingItem)
         }
     }
